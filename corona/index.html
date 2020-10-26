@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <title>Corona</title>
+    <link rel="stylesheet" type="text/css" href="libs/Semantic-UI/semantic.min.css">
+    <script src="libs/d3/d3.min.js"></script>
+    <script src="libs/chartjs/Chart.min.js"></script>
+    <script src="libs/jQuery/jquery-3.5.1.min.js"></script>
+    <script src="libs/Semantic-UI/semantic.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+<h1>Corona cases for Emsland</h1>  
+
+<!-- <select id="selection" name="#selection" multiple="" class="ui fluid dropdown" onchange="loadData()">
+    <option value="">Selection</option>
+  <option value="doerpen">Samtgemeinde Dörpen</option>
+  <option value="freren">Samtgemeinde Freren</option>
+  <option value="geeste">Einheitsgemeinde Geeste</option>
+  <option value="haren">Stadt Haren (Ems)</option>
+  <option value="haseluenne">Stadt Haselünne</option>
+  <option value="herzlake">Samtgemeinde Herzlake</option>
+  <option value="lathen">Samtgemeinde Lathen</option>
+  <option value="lengerich">Samtgemeinde Lengerich</option>
+  <option value="lingen">Stadt Lingen (Ems)</option>
+  <option value="meppen">Stadt Meppen</option>
+  <option value="nordhuemmling">Samtgemeinde Nordhümmling</option>
+  <option value="papenburg">Stadt Papenburg</option>
+  <option value="rhede">Einheitsgemeinde Rhede (Ems)</option>
+  <option value="salzbergen">Einheitsgemeinde Salzbergen</option>
+  <option value="soegel">Samtgemeinde Sögel</option>
+  <option value="spelle">Samtgemeinde Spelle</option>
+  <option value="twist">Einheitsgemeinde Twist</option>
+  <option value="werlte">Samtgemeinde Werlte</option>
+  <option value="gesamt">Gesamt</option>
+  </select> -->
+
+<div id="divContainer">
+    <canvas id="canvas"></canvas>
+</div>
+
+<h2>
+    Resources
+</h2>
+<span>Datasources:</span>
+<ul>
+    <li><a href="https://www.facebook.com/landkreisemsland" target="_blank">Landkreis Emsland (Facebook)</a></li>
+    <li><a href="https://www.emsland.de/buerger-behoerde/aktuell/coronavirus/fallzahlen-den-emslaendischen-kommunen.html" target="_blank">Landkreis Emsland</a></li>
+    <li><a href="https://wikipedia.org" target="_blank">Wikipedia</a></li>
+</ul>
+<span>Following resources have been used scripting this page</span>
+<ul>
+    <li><a href="https://d3js.org" target="_blank">D3.js</a></li>
+    <li><a href="https://www.chartjs.org" target="_blank">Chart.js</a></li>
+    <li><a href="https://github.com" target="_blank">GitHub</a></li>
+    <li><a href="https://jquery.com/" target="_blank">jQuery</a></li>
+    <li><a href="https://semantic-ui.com/" target="_blank">Semantic UI</a></li>
+</ul>
+<span>Ideas</span>
+<ul>
+    <li><a href="https://rsalzer.github.io/COVID_19_CH/" target="_blank">https://rsalzer.github.io/COVID_19_CH/</a></li>
+</ul>
+</body></html>
+<script>
+//   $('.ui.dropdown')
+//    .dropdown();
+</script>

@@ -1,4 +1,684 @@
 #datum,kommune,faelle,genesen,verstorben,current
+2020-05-28,Samtgemeinde Dörpen,12,10,1,1
+2020-05-28,Einheitsgemeinde Emsbüren,17,17,0,0
+2020-05-28,Samtgemeinde Freren,45,35,9,1
+2020-05-28,Einheitsgemeinde Geeste,18,16,0,2
+2020-05-28,Stadt Haren (Ems),32,30,1,1
+2020-05-28,Stadt Haselünne,32,31,0,1
+2020-05-28,Samtgemeinde Herzlake,10,10,0,0
+2020-05-28,Samtgemeinde Lathen,9,6,0,3
+2020-05-28,Samtgemeinde Lengerich,15,14,1,0
+2020-05-28,Stadt Lingen (Ems),75,70,4,1
+2020-05-28,Stadt Meppen,72,63,4,5
+2020-05-28,Samtgemeinde Nordhümmling,8,7,0,1
+2020-05-28,Stadt Papenburg,30,27,2,1
+2020-05-28,Einheitsgemeinde Rhede (Ems),1,1,0,0
+2020-05-28,Einheitsgemeinde Salzbergen,14,13,0,1
+2020-05-28,Samtgemeinde Sögel,6,4,0,2
+2020-05-28,Samtgemeinde Spelle,15,14,1,0
+2020-05-28,Einheitsgemeinde Twist,19,17,2,0
+2020-05-28,Samtgemeinde Werlte,14,13,0,1
+2020-05-28,Gesamt,444,398,25,21
+2020-05-29,Samtgemeinde Dörpen,12,10,1,1
+2020-05-29,Einheitsgemeinde Emsbüren,17,17,0,0
+2020-05-29,Samtgemeinde Freren,45,35,9,1
+2020-05-29,Einheitsgemeinde Geeste,18,17,0,1
+2020-05-29,Stadt Haren (Ems),32,30,1,1
+2020-05-29,Stadt Haselünne,32,32,0,0
+2020-05-29,Samtgemeinde Herzlake,10,10,0,0
+2020-05-29,Samtgemeinde Lathen,9,8,0,1
+2020-05-29,Samtgemeinde Lengerich,15,14,1,0
+2020-05-29,Stadt Lingen (Ems),75,71,4,0
+2020-05-29,Stadt Meppen,72,63,4,5
+2020-05-29,Samtgemeinde Nordhümmling,8,7,0,1
+2020-05-29,Stadt Papenburg,31,27,2,2
+2020-05-29,Einheitsgemeinde Rhede (Ems),1,1,0,0
+2020-05-29,Einheitsgemeinde Salzbergen,14,13,0,1
+2020-05-29,Samtgemeinde Sögel,6,4,0,2
+2020-05-29,Samtgemeinde Spelle,15,14,1,0
+2020-05-29,Einheitsgemeinde Twist,19,17,2,0
+2020-05-29,Samtgemeinde Werlte,14,13,0,1
+2020-05-29,Gesamt,445,403,25,17
+2020-05-30,Samtgemeinde Dörpen,12,10,1,1
+2020-05-30,Einheitsgemeinde Emsbüren,17,17,0,0
+2020-05-30,Samtgemeinde Freren,45,35,9,1
+2020-05-30,Einheitsgemeinde Geeste,18,17,0,1
+2020-05-30,Stadt Haren (Ems),32,30,1,1
+2020-05-30,Stadt Haselünne,32,32,0,0
+2020-05-30,Samtgemeinde Herzlake,10,10,0,0
+2020-05-30,Samtgemeinde Lathen,9,8,0,1
+2020-05-30,Samtgemeinde Lengerich,15,14,1,0
+2020-05-30,Stadt Lingen (Ems),75,71,4,0
+2020-05-30,Stadt Meppen,72,63,4,5
+2020-05-30,Samtgemeinde Nordhümmling,8,7,0,1
+2020-05-30,Stadt Papenburg,31,27,2,2
+2020-05-30,Einheitsgemeinde Rhede (Ems),1,1,0,0
+2020-05-30,Einheitsgemeinde Salzbergen,14,13,0,1
+2020-05-30,Samtgemeinde Sögel,6,4,0,2
+2020-05-30,Samtgemeinde Spelle,15,14,1,0
+2020-05-30,Einheitsgemeinde Twist,19,17,2,0
+2020-05-30,Samtgemeinde Werlte,14,13,0,1
+2020-05-30,Gesamt,445,403,25,17
+2020-05-31,Samtgemeinde Dörpen,12,10,1,1
+2020-05-31,Einheitsgemeinde Emsbüren,17,17,0,0
+2020-05-31,Samtgemeinde Freren,45,35,9,1
+2020-05-31,Einheitsgemeinde Geeste,18,17,0,1
+2020-05-31,Stadt Haren (Ems),32,30,1,1
+2020-05-31,Stadt Haselünne,32,32,0,0
+2020-05-31,Samtgemeinde Herzlake,10,10,0,0
+2020-05-31,Samtgemeinde Lathen,9,8,0,1
+2020-05-31,Samtgemeinde Lengerich,15,14,1,0
+2020-05-31,Stadt Lingen (Ems),75,71,4,0
+2020-05-31,Stadt Meppen,72,63,4,5
+2020-05-31,Samtgemeinde Nordhümmling,8,7,0,1
+2020-05-31,Stadt Papenburg,31,27,2,2
+2020-05-31,Einheitsgemeinde Rhede (Ems),1,1,0,0
+2020-05-31,Einheitsgemeinde Salzbergen,14,13,0,1
+2020-05-31,Samtgemeinde Sögel,6,4,0,2
+2020-05-31,Samtgemeinde Spelle,15,14,1,0
+2020-05-31,Einheitsgemeinde Twist,19,17,2,0
+2020-05-31,Samtgemeinde Werlte,14,13,0,1
+2020-05-31,Gesamt,445,403,25,17
+2020-06-01,Samtgemeinde Dörpen,12,10,1,1
+2020-06-01,Einheitsgemeinde Emsbüren,17,17,0,0
+2020-06-01,Samtgemeinde Freren,45,35,9,1
+2020-06-01,Einheitsgemeinde Geeste,18,17,0,1
+2020-06-01,Stadt Haren (Ems),32,30,1,1
+2020-06-01,Stadt Haselünne,32,32,0,0
+2020-06-01,Samtgemeinde Herzlake,10,10,0,0
+2020-06-01,Samtgemeinde Lathen,9,8,0,1
+2020-06-01,Samtgemeinde Lengerich,15,14,1,0
+2020-06-01,Stadt Lingen (Ems),75,71,4,0
+2020-06-01,Stadt Meppen,72,63,4,5
+2020-06-01,Samtgemeinde Nordhümmling,8,7,0,1
+2020-06-01,Stadt Papenburg,31,27,2,2
+2020-06-01,Einheitsgemeinde Rhede (Ems),1,1,0,0
+2020-06-01,Einheitsgemeinde Salzbergen,14,13,0,1
+2020-06-01,Samtgemeinde Sögel,6,4,0,2
+2020-06-01,Samtgemeinde Spelle,15,14,1,0
+2020-06-01,Einheitsgemeinde Twist,19,17,2,0
+2020-06-01,Samtgemeinde Werlte,14,13,0,1
+2020-06-01,Gesamt,445,403,25,17
+2020-06-02,Samtgemeinde Dörpen,12,11,1,0
+2020-06-02,Einheitsgemeinde Emsbüren,17,17,0,0
+2020-06-02,Samtgemeinde Freren,45,36,9,0
+2020-06-02,Einheitsgemeinde Geeste,18,17,0,1
+2020-06-02,Stadt Haren (Ems),32,30,1,1
+2020-06-02,Stadt Haselünne,32,32,0,0
+2020-06-02,Samtgemeinde Herzlake,10,10,0,0
+2020-06-02,Samtgemeinde Lathen,9,9,0,0
+2020-06-02,Samtgemeinde Lengerich,15,14,1,0
+2020-06-02,Stadt Lingen (Ems),75,71,4,0
+2020-06-02,Stadt Meppen,72,65,4,3
+2020-06-02,Samtgemeinde Nordhümmling,8,8,0,0
+2020-06-02,Stadt Papenburg,32,27,2,3
+2020-06-02,Einheitsgemeinde Rhede (Ems),1,1,0,0
+2020-06-02,Einheitsgemeinde Salzbergen,14,13,0,1
+2020-06-02,Samtgemeinde Sögel,6,5,0,1
+2020-06-02,Samtgemeinde Spelle,15,14,1,0
+2020-06-02,Einheitsgemeinde Twist,19,17,2,0
+2020-06-02,Samtgemeinde Werlte,14,13,0,1
+2020-06-02,Gesamt,446,410,25,11
+2020-06-03,Samtgemeinde Dörpen,12,11,1,0
+2020-06-03,Einheitsgemeinde Emsbüren,17,17,0,0
+2020-06-03,Samtgemeinde Freren,45,36,9,0
+2020-06-03,Einheitsgemeinde Geeste,18,17,0,1
+2020-06-03,Stadt Haren (Ems),32,30,1,1
+2020-06-03,Stadt Haselünne,32,32,0,0
+2020-06-03,Samtgemeinde Herzlake,10,10,0,0
+2020-06-03,Samtgemeinde Lathen,9,9,0,0
+2020-06-03,Samtgemeinde Lengerich,15,14,1,0
+2020-06-03,Stadt Lingen (Ems),75,71,4,0
+2020-06-03,Stadt Meppen,72,66,4,2
+2020-06-03,Samtgemeinde Nordhümmling,8,8,0,0
+2020-06-03,Stadt Papenburg,34,27,2,5
+2020-06-03,Einheitsgemeinde Rhede (Ems),1,1,0,0
+2020-06-03,Einheitsgemeinde Salzbergen,14,13,0,1
+2020-06-03,Samtgemeinde Sögel,6,5,0,1
+2020-06-03,Samtgemeinde Spelle,15,14,1,0
+2020-06-03,Einheitsgemeinde Twist,19,17,2,0
+2020-06-03,Samtgemeinde Werlte,14,13,0,1
+2020-06-03,Gesamt,448,411,25,12
+2020-06-04,Samtgemeinde Dörpen,12,11,1,0
+2020-06-04,Einheitsgemeinde Emsbüren,17,17,0,0
+2020-06-04,Samtgemeinde Freren,45,36,9,0
+2020-06-04,Einheitsgemeinde Geeste,18,17,0,1
+2020-06-04,Stadt Haren (Ems),32,30,1,1
+2020-06-04,Stadt Haselünne,32,32,0,0
+2020-06-04,Samtgemeinde Herzlake,10,10,0,0
+2020-06-04,Samtgemeinde Lathen,9,9,0,0
+2020-06-04,Samtgemeinde Lengerich,15,14,1,0
+2020-06-04,Stadt Lingen (Ems),75,71,4,0
+2020-06-04,Stadt Meppen,72,66,4,2
+2020-06-04,Samtgemeinde Nordhümmling,8,8,0,0
+2020-06-04,Stadt Papenburg,34,27,2,5
+2020-06-04,Einheitsgemeinde Rhede (Ems),1,1,0,0
+2020-06-04,Einheitsgemeinde Salzbergen,14,13,0,1
+2020-06-04,Samtgemeinde Sögel,6,6,0,0
+2020-06-04,Samtgemeinde Spelle,15,14,1,0
+2020-06-04,Einheitsgemeinde Twist,19,17,2,0
+2020-06-04,Samtgemeinde Werlte,14,13,0,1
+2020-06-04,Gesamt,448,412,25,11
+2020-06-05,Samtgemeinde Dörpen,12,11,1,0
+2020-06-05,Einheitsgemeinde Emsbüren,17,17,0,0
+2020-06-05,Samtgemeinde Freren,45,36,9,0
+2020-06-05,Einheitsgemeinde Geeste,18,17,0,1
+2020-06-05,Stadt Haren (Ems),32,31,1,0
+2020-06-05,Stadt Haselünne,32,32,0,0
+2020-06-05,Samtgemeinde Herzlake,10,10,0,0
+2020-06-05,Samtgemeinde Lathen,9,9,0,0
+2020-06-05,Samtgemeinde Lengerich,16,14,1,1
+2020-06-05,Stadt Lingen (Ems),75,71,4,0
+2020-06-05,Stadt Meppen,72,67,4,1
+2020-06-05,Samtgemeinde Nordhümmling,8,8,0,0
+2020-06-05,Stadt Papenburg,34,28,2,4
+2020-06-05,Einheitsgemeinde Rhede (Ems),1,1,0,0
+2020-06-05,Einheitsgemeinde Salzbergen,14,14,0,0
+2020-06-05,Samtgemeinde Sögel,6,6,0,0
+2020-06-05,Samtgemeinde Spelle,15,14,1,0
+2020-06-05,Einheitsgemeinde Twist,19,17,2,0
+2020-06-05,Samtgemeinde Werlte,14,13,0,1
+2020-06-05,Gesamt,448,416,25,7
+2020-06-06,Samtgemeinde Dörpen,12,11,1,0
+2020-06-06,Einheitsgemeinde Emsbüren,17,17,0,0
+2020-06-06,Samtgemeinde Freren,45,36,9,0
+2020-06-06,Einheitsgemeinde Geeste,18,17,0,1
+2020-06-06,Stadt Haren (Ems),32,31,1,0
+2020-06-06,Stadt Haselünne,32,32,0,0
+2020-06-06,Samtgemeinde Herzlake,10,10,0,0
+2020-06-06,Samtgemeinde Lathen,9,9,0,0
+2020-06-06,Samtgemeinde Lengerich,16,14,1,1
+2020-06-06,Stadt Lingen (Ems),75,71,4,0
+2020-06-06,Stadt Meppen,72,67,4,1
+2020-06-06,Samtgemeinde Nordhümmling,8,8,0,0
+2020-06-06,Stadt Papenburg,34,28,2,4
+2020-06-06,Einheitsgemeinde Rhede (Ems),1,1,0,0
+2020-06-06,Einheitsgemeinde Salzbergen,14,14,0,0
+2020-06-06,Samtgemeinde Sögel,6,6,0,0
+2020-06-06,Samtgemeinde Spelle,15,14,1,0
+2020-06-06,Einheitsgemeinde Twist,19,17,2,0
+2020-06-06,Samtgemeinde Werlte,14,13,0,1
+2020-06-06,Gesamt,448,416,25,7
+2020-06-07,Samtgemeinde Dörpen,12,11,1,0
+2020-06-07,Einheitsgemeinde Emsbüren,17,17,0,0
+2020-06-07,Samtgemeinde Freren,45,36,9,0
+2020-06-07,Einheitsgemeinde Geeste,18,17,0,1
+2020-06-07,Stadt Haren (Ems),32,31,1,0
+2020-06-07,Stadt Haselünne,32,32,0,0
+2020-06-07,Samtgemeinde Herzlake,10,10,0,0
+2020-06-07,Samtgemeinde Lathen,9,9,0,0
+2020-06-07,Samtgemeinde Lengerich,16,14,1,1
+2020-06-07,Stadt Lingen (Ems),75,71,4,0
+2020-06-07,Stadt Meppen,72,67,4,1
+2020-06-07,Samtgemeinde Nordhümmling,8,8,0,0
+2020-06-07,Stadt Papenburg,34,28,2,4
+2020-06-07,Einheitsgemeinde Rhede (Ems),1,1,0,0
+2020-06-07,Einheitsgemeinde Salzbergen,14,14,0,0
+2020-06-07,Samtgemeinde Sögel,6,6,0,0
+2020-06-07,Samtgemeinde Spelle,15,14,1,0
+2020-06-07,Einheitsgemeinde Twist,19,17,2,0
+2020-06-07,Samtgemeinde Werlte,14,13,0,1
+2020-06-07,Gesamt,448,416,25,7
+2020-06-08,Samtgemeinde Dörpen,12,11,1,0
+2020-06-08,Einheitsgemeinde Emsbüren,17,17,0,0
+2020-06-08,Samtgemeinde Freren,49,36,9,4
+2020-06-08,Einheitsgemeinde Geeste,18,17,0,1
+2020-06-08,Stadt Haren (Ems),32,31,1,0
+2020-06-08,Stadt Haselünne,32,32,0,0
+2020-06-08,Samtgemeinde Herzlake,10,10,0,0
+2020-06-08,Samtgemeinde Lathen,9,9,0,0
+2020-06-08,Samtgemeinde Lengerich,16,14,1,1
+2020-06-08,Stadt Lingen (Ems),76,71,4,1
+2020-06-08,Stadt Meppen,72,67,4,1
+2020-06-08,Samtgemeinde Nordhümmling,8,8,0,0
+2020-06-08,Stadt Papenburg,34,29,2,3
+2020-06-08,Einheitsgemeinde Rhede (Ems),1,1,0,0
+2020-06-08,Einheitsgemeinde Salzbergen,14,14,0,0
+2020-06-08,Samtgemeinde Sögel,6,6,0,0
+2020-06-08,Samtgemeinde Spelle,15,14,1,0
+2020-06-08,Einheitsgemeinde Twist,19,17,2,0
+2020-06-08,Samtgemeinde Werlte,14,13,0,1
+2020-06-08,Gesamt,454,417,25,12
+2020-06-09,Samtgemeinde Dörpen,12,11,1,0
+2020-06-09,Einheitsgemeinde Emsbüren,17,17,0,0
+2020-06-09,Samtgemeinde Freren,49,36,9,4
+2020-06-09,Einheitsgemeinde Geeste,18,17,0,1
+2020-06-09,Stadt Haren (Ems),32,31,1,0
+2020-06-09,Stadt Haselünne,32,32,0,0
+2020-06-09,Samtgemeinde Herzlake,10,10,0,0
+2020-06-09,Samtgemeinde Lathen,9,9,0,0
+2020-06-09,Samtgemeinde Lengerich,16,14,1,1
+2020-06-09,Stadt Lingen (Ems),76,71,4,1
+2020-06-09,Stadt Meppen,72,67,4,1
+2020-06-09,Samtgemeinde Nordhümmling,8,8,0,0
+2020-06-09,Stadt Papenburg,34,29,2,3
+2020-06-09,Einheitsgemeinde Rhede (Ems),1,1,0,0
+2020-06-09,Einheitsgemeinde Salzbergen,15,14,0,1
+2020-06-09,Samtgemeinde Sögel,7,6,0,1
+2020-06-09,Samtgemeinde Spelle,15,14,1,0
+2020-06-09,Einheitsgemeinde Twist,19,17,2,0
+2020-06-09,Samtgemeinde Werlte,14,13,0,1
+2020-06-09,Gesamt,456,417,25,14
+2020-06-10,Samtgemeinde Dörpen,12,11,1,0
+2020-06-10,Einheitsgemeinde Emsbüren,17,17,0,0
+2020-06-10,Samtgemeinde Freren,49,36,9,4
+2020-06-10,Einheitsgemeinde Geeste,18,18,0,0
+2020-06-10,Stadt Haren (Ems),32,31,1,0
+2020-06-10,Stadt Haselünne,32,32,0,0
+2020-06-10,Samtgemeinde Herzlake,10,10,0,0
+2020-06-10,Samtgemeinde Lathen,9,9,0,0
+2020-06-10,Samtgemeinde Lengerich,16,14,1,1
+2020-06-10,Stadt Lingen (Ems),76,71,4,1
+2020-06-10,Stadt Meppen,72,67,4,1
+2020-06-10,Samtgemeinde Nordhümmling,8,8,0,0
+2020-06-10,Stadt Papenburg,34,29,2,3
+2020-06-10,Einheitsgemeinde Rhede (Ems),1,1,0,0
+2020-06-10,Einheitsgemeinde Salzbergen,15,14,0,1
+2020-06-10,Samtgemeinde Sögel,7,6,0,1
+2020-06-10,Samtgemeinde Spelle,15,14,1,0
+2020-06-10,Einheitsgemeinde Twist,19,17,2,0
+2020-06-10,Samtgemeinde Werlte,14,14,0,0
+2020-06-10,Gesamt,456,419,25,12
+2020-06-11,Samtgemeinde Dörpen,12,11,1,0
+2020-06-11,Einheitsgemeinde Emsbüren,17,17,0,0
+2020-06-11,Samtgemeinde Freren,50,36,9,5
+2020-06-11,Einheitsgemeinde Geeste,18,18,0,0
+2020-06-11,Stadt Haren (Ems),32,31,1,0
+2020-06-11,Stadt Haselünne,32,32,0,0
+2020-06-11,Samtgemeinde Herzlake,10,10,0,0
+2020-06-11,Samtgemeinde Lathen,10,9,0,1
+2020-06-11,Samtgemeinde Lengerich,16,14,1,1
+2020-06-11,Stadt Lingen (Ems),76,71,4,1
+2020-06-11,Stadt Meppen,72,67,4,1
+2020-06-11,Samtgemeinde Nordhümmling,8,8,0,0
+2020-06-11,Stadt Papenburg,34,29,2,3
+2020-06-11,Einheitsgemeinde Rhede (Ems),1,1,0,0
+2020-06-11,Einheitsgemeinde Salzbergen,15,14,0,1
+2020-06-11,Samtgemeinde Sögel,7,6,0,1
+2020-06-11,Samtgemeinde Spelle,15,14,1,0
+2020-06-11,Einheitsgemeinde Twist,19,17,2,0
+2020-06-11,Samtgemeinde Werlte,14,14,0,0
+2020-06-11,Gesamt,458,419,25,14
+2020-06-12,Samtgemeinde Dörpen,12,11,1,0
+2020-06-12,Einheitsgemeinde Emsbüren,17,17,0,0
+2020-06-12,Samtgemeinde Freren,50,36,9,5
+2020-06-12,Einheitsgemeinde Geeste,18,18,0,0
+2020-06-12,Stadt Haren (Ems),32,31,1,0
+2020-06-12,Stadt Haselünne,32,32,0,0
+2020-06-12,Samtgemeinde Herzlake,10,10,0,0
+2020-06-12,Samtgemeinde Lathen,10,9,0,1
+2020-06-12,Samtgemeinde Lengerich,16,14,1,1
+2020-06-12,Stadt Lingen (Ems),76,72,4,0
+2020-06-12,Stadt Meppen,72,67,4,1
+2020-06-12,Samtgemeinde Nordhümmling,8,8,0,0
+2020-06-12,Stadt Papenburg,34,30,2,2
+2020-06-12,Einheitsgemeinde Rhede (Ems),1,1,0,0
+2020-06-12,Einheitsgemeinde Salzbergen,15,14,0,1
+2020-06-12,Samtgemeinde Sögel,7,6,0,1
+2020-06-12,Samtgemeinde Spelle,15,14,1,0
+2020-06-12,Einheitsgemeinde Twist,19,17,2,0
+2020-06-12,Samtgemeinde Werlte,14,14,0,0
+2020-06-12,Gesamt,458,421,25,12
+2020-06-13,Samtgemeinde Dörpen,12,11,1,0
+2020-06-13,Einheitsgemeinde Emsbüren,17,17,0,0
+2020-06-13,Samtgemeinde Freren,50,36,9,5
+2020-06-13,Einheitsgemeinde Geeste,18,18,0,0
+2020-06-13,Stadt Haren (Ems),32,31,1,0
+2020-06-13,Stadt Haselünne,32,32,0,0
+2020-06-13,Samtgemeinde Herzlake,10,10,0,0
+2020-06-13,Samtgemeinde Lathen,10,9,0,1
+2020-06-13,Samtgemeinde Lengerich,16,14,1,1
+2020-06-13,Stadt Lingen (Ems),76,72,4,0
+2020-06-13,Stadt Meppen,72,67,4,1
+2020-06-13,Samtgemeinde Nordhümmling,8,8,0,0
+2020-06-13,Stadt Papenburg,34,30,2,2
+2020-06-13,Einheitsgemeinde Rhede (Ems),1,1,0,0
+2020-06-13,Einheitsgemeinde Salzbergen,15,14,0,1
+2020-06-13,Samtgemeinde Sögel,7,6,0,1
+2020-06-13,Samtgemeinde Spelle,15,14,1,0
+2020-06-13,Einheitsgemeinde Twist,19,17,2,0
+2020-06-13,Samtgemeinde Werlte,14,14,0,0
+2020-06-13,Gesamt,458,421,25,12
+2020-06-14,Samtgemeinde Dörpen,12,11,1,0
+2020-06-14,Einheitsgemeinde Emsbüren,17,17,0,0
+2020-06-14,Samtgemeinde Freren,50,36,9,5
+2020-06-14,Einheitsgemeinde Geeste,18,18,0,0
+2020-06-14,Stadt Haren (Ems),32,31,1,0
+2020-06-14,Stadt Haselünne,32,32,0,0
+2020-06-14,Samtgemeinde Herzlake,10,10,0,0
+2020-06-14,Samtgemeinde Lathen,10,9,0,1
+2020-06-14,Samtgemeinde Lengerich,16,14,1,1
+2020-06-14,Stadt Lingen (Ems),76,72,4,0
+2020-06-14,Stadt Meppen,72,67,4,1
+2020-06-14,Samtgemeinde Nordhümmling,8,8,0,0
+2020-06-14,Stadt Papenburg,34,30,2,2
+2020-06-14,Einheitsgemeinde Rhede (Ems),1,1,0,0
+2020-06-14,Einheitsgemeinde Salzbergen,15,14,0,1
+2020-06-14,Samtgemeinde Sögel,7,6,0,1
+2020-06-14,Samtgemeinde Spelle,15,14,1,0
+2020-06-14,Einheitsgemeinde Twist,19,17,2,0
+2020-06-14,Samtgemeinde Werlte,14,14,0,0
+2020-06-14,Gesamt,458,421,25,12
+2020-06-15,Samtgemeinde Dörpen,12,11,1,0
+2020-06-15,Einheitsgemeinde Emsbüren,17,17,0,0
+2020-06-15,Samtgemeinde Freren,50,36,9,5
+2020-06-15,Einheitsgemeinde Geeste,18,18,0,0
+2020-06-15,Stadt Haren (Ems),32,31,1,0
+2020-06-15,Stadt Haselünne,32,32,0,0
+2020-06-15,Samtgemeinde Herzlake,10,10,0,0
+2020-06-15,Samtgemeinde Lathen,10,9,0,1
+2020-06-15,Samtgemeinde Lengerich,16,14,1,1
+2020-06-15,Stadt Lingen (Ems),76,72,4,0
+2020-06-15,Stadt Meppen,72,68,4,0
+2020-06-15,Samtgemeinde Nordhümmling,8,8,0,0
+2020-06-15,Stadt Papenburg,34,32,2,0
+2020-06-15,Einheitsgemeinde Rhede (Ems),1,1,0,0
+2020-06-15,Einheitsgemeinde Salzbergen,15,14,0,1
+2020-06-15,Samtgemeinde Sögel,7,6,0,1
+2020-06-15,Samtgemeinde Spelle,15,14,1,0
+2020-06-15,Einheitsgemeinde Twist,20,17,2,1
+2020-06-15,Samtgemeinde Werlte,14,14,0,0
+2020-06-15,Gesamt,459,424,25,10
+2020-06-16,Samtgemeinde Dörpen,12,11,1,0
+2020-06-16,Einheitsgemeinde Emsbüren,17,17,0,0
+2020-06-16,Samtgemeinde Freren,50,36,9,5
+2020-06-16,Einheitsgemeinde Geeste,18,18,0,0
+2020-06-16,Stadt Haren (Ems),32,31,1,0
+2020-06-16,Stadt Haselünne,32,32,0,0
+2020-06-16,Samtgemeinde Herzlake,10,10,0,0
+2020-06-16,Samtgemeinde Lathen,10,9,0,1
+2020-06-16,Samtgemeinde Lengerich,16,14,1,1
+2020-06-16,Stadt Lingen (Ems),76,72,4,0
+2020-06-16,Stadt Meppen,72,68,4,0
+2020-06-16,Samtgemeinde Nordhümmling,8,8,0,0
+2020-06-16,Stadt Papenburg,34,32,2,0
+2020-06-16,Einheitsgemeinde Rhede (Ems),1,1,0,0
+2020-06-16,Einheitsgemeinde Salzbergen,15,14,0,1
+2020-06-16,Samtgemeinde Sögel,7,6,0,1
+2020-06-16,Samtgemeinde Spelle,15,14,1,0
+2020-06-16,Einheitsgemeinde Twist,20,17,2,1
+2020-06-16,Samtgemeinde Werlte,14,14,0,0
+2020-06-16,Gesamt,459,424,25,10
+2020-06-17,Samtgemeinde Dörpen,12,11,1,0
+2020-06-17,Einheitsgemeinde Emsbüren,17,17,0,0
+2020-06-17,Samtgemeinde Freren,51,36,9,6
+2020-06-17,Einheitsgemeinde Geeste,18,18,0,0
+2020-06-17,Stadt Haren (Ems),32,31,1,0
+2020-06-17,Stadt Haselünne,32,32,0,0
+2020-06-17,Samtgemeinde Herzlake,10,10,0,0
+2020-06-17,Samtgemeinde Lathen,10,9,0,1
+2020-06-17,Samtgemeinde Lengerich,16,14,1,1
+2020-06-17,Stadt Lingen (Ems),76,72,4,0
+2020-06-17,Stadt Meppen,72,68,4,0
+2020-06-17,Samtgemeinde Nordhümmling,8,8,0,0
+2020-06-17,Stadt Papenburg,34,32,2,0
+2020-06-17,Einheitsgemeinde Rhede (Ems),1,1,0,0
+2020-06-17,Einheitsgemeinde Salzbergen,15,14,0,1
+2020-06-17,Samtgemeinde Sögel,7,6,0,1
+2020-06-17,Samtgemeinde Spelle,15,14,1,0
+2020-06-17,Einheitsgemeinde Twist,20,17,2,1
+2020-06-17,Samtgemeinde Werlte,14,14,0,0
+2020-06-17,Gesamt,460,424,25,11
+2020-06-18,Samtgemeinde Dörpen,12,11,1,0
+2020-06-18,Einheitsgemeinde Emsbüren,17,17,0,0
+2020-06-18,Samtgemeinde Freren,53,40,9,4
+2020-06-18,Einheitsgemeinde Geeste,18,18,0,0
+2020-06-18,Stadt Haren (Ems),32,31,1,0
+2020-06-18,Stadt Haselünne,32,32,0,0
+2020-06-18,Samtgemeinde Herzlake,10,10,0,0
+2020-06-18,Samtgemeinde Lathen,10,9,0,1
+2020-06-18,Samtgemeinde Lengerich,16,14,1,1
+2020-06-18,Stadt Lingen (Ems),76,72,4,0
+2020-06-18,Stadt Meppen,72,68,4,0
+2020-06-18,Samtgemeinde Nordhümmling,8,8,0,0
+2020-06-18,Stadt Papenburg,34,32,2,0
+2020-06-18,Einheitsgemeinde Rhede (Ems),1,1,0,0
+2020-06-18,Einheitsgemeinde Salzbergen,15,14,0,1
+2020-06-18,Samtgemeinde Sögel,7,6,0,1
+2020-06-18,Samtgemeinde Spelle,15,14,1,0
+2020-06-18,Einheitsgemeinde Twist,20,17,2,1
+2020-06-18,Samtgemeinde Werlte,14,14,0,0
+2020-06-18,Gesamt,460,426,25,9
+2020-06-19,Samtgemeinde Dörpen,12,11,1,0
+2020-06-19,Einheitsgemeinde Emsbüren,17,17,0,0
+2020-06-19,Samtgemeinde Freren,53,40,9,4
+2020-06-19,Einheitsgemeinde Geeste,18,18,0,0
+2020-06-19,Stadt Haren (Ems),32,31,1,0
+2020-06-19,Stadt Haselünne,32,32,0,0
+2020-06-19,Samtgemeinde Herzlake,10,10,0,0
+2020-06-19,Samtgemeinde Lathen,10,9,0,1
+2020-06-19,Samtgemeinde Lengerich,16,15,1,0
+2020-06-19,Stadt Lingen (Ems),76,72,4,0
+2020-06-19,Stadt Meppen,72,68,4,0
+2020-06-19,Samtgemeinde Nordhümmling,8,8,0,0
+2020-06-19,Stadt Papenburg,34,32,2,0
+2020-06-19,Einheitsgemeinde Rhede (Ems),1,1,0,0
+2020-06-19,Einheitsgemeinde Salzbergen,15,14,0,1
+2020-06-19,Samtgemeinde Sögel,7,6,0,1
+2020-06-19,Samtgemeinde Spelle,15,14,1,0
+2020-06-19,Einheitsgemeinde Twist,20,17,2,1
+2020-06-19,Samtgemeinde Werlte,14,14,0,0
+2020-06-19,Gesamt,462,429,25,8
+2020-06-20,Samtgemeinde Dörpen,12,11,1,0
+2020-06-20,Einheitsgemeinde Emsbüren,17,17,0,0
+2020-06-20,Samtgemeinde Freren,53,40,9,4
+2020-06-20,Einheitsgemeinde Geeste,18,18,0,0
+2020-06-20,Stadt Haren (Ems),32,31,1,0
+2020-06-20,Stadt Haselünne,32,32,0,0
+2020-06-20,Samtgemeinde Herzlake,10,10,0,0
+2020-06-20,Samtgemeinde Lathen,10,9,0,1
+2020-06-20,Samtgemeinde Lengerich,16,15,1,0
+2020-06-20,Stadt Lingen (Ems),76,72,4,0
+2020-06-20,Stadt Meppen,72,68,4,0
+2020-06-20,Samtgemeinde Nordhümmling,8,8,0,0
+2020-06-20,Stadt Papenburg,34,32,2,0
+2020-06-20,Einheitsgemeinde Rhede (Ems),1,1,0,0
+2020-06-20,Einheitsgemeinde Salzbergen,15,14,0,1
+2020-06-20,Samtgemeinde Sögel,7,6,0,1
+2020-06-20,Samtgemeinde Spelle,15,14,1,0
+2020-06-20,Einheitsgemeinde Twist,20,17,2,1
+2020-06-20,Samtgemeinde Werlte,14,14,0,0
+2020-06-20,Gesamt,462,429,25,8
+2020-06-21,Samtgemeinde Dörpen,12,11,1,0
+2020-06-21,Einheitsgemeinde Emsbüren,17,17,0,0
+2020-06-21,Samtgemeinde Freren,53,40,9,4
+2020-06-21,Einheitsgemeinde Geeste,18,18,0,0
+2020-06-21,Stadt Haren (Ems),32,31,1,0
+2020-06-21,Stadt Haselünne,32,32,0,0
+2020-06-21,Samtgemeinde Herzlake,10,10,0,0
+2020-06-21,Samtgemeinde Lathen,10,9,0,1
+2020-06-21,Samtgemeinde Lengerich,16,15,1,0
+2020-06-21,Stadt Lingen (Ems),76,72,4,0
+2020-06-21,Stadt Meppen,72,68,4,0
+2020-06-21,Samtgemeinde Nordhümmling,8,8,0,0
+2020-06-21,Stadt Papenburg,34,32,2,0
+2020-06-21,Einheitsgemeinde Rhede (Ems),1,1,0,0
+2020-06-21,Einheitsgemeinde Salzbergen,15,14,0,1
+2020-06-21,Samtgemeinde Sögel,7,6,0,1
+2020-06-21,Samtgemeinde Spelle,15,14,1,0
+2020-06-21,Einheitsgemeinde Twist,20,17,2,1
+2020-06-21,Samtgemeinde Werlte,14,14,0,0
+2020-06-21,Gesamt,462,429,25,8
+2020-06-22,Samtgemeinde Dörpen,12,11,1,0
+2020-06-22,Einheitsgemeinde Emsbüren,17,17,0,0
+2020-06-22,Samtgemeinde Freren,53,40,9,4
+2020-06-22,Einheitsgemeinde Geeste,18,18,0,0
+2020-06-22,Stadt Haren (Ems),32,31,1,0
+2020-06-22,Stadt Haselünne,32,32,0,0
+2020-06-22,Samtgemeinde Herzlake,10,10,0,0
+2020-06-22,Samtgemeinde Lathen,10,9,0,1
+2020-06-22,Samtgemeinde Lengerich,16,15,1,0
+2020-06-22,Stadt Lingen (Ems),76,72,4,0
+2020-06-22,Stadt Meppen,72,68,4,0
+2020-06-22,Samtgemeinde Nordhümmling,8,8,0,0
+2020-06-22,Stadt Papenburg,34,32,2,0
+2020-06-22,Einheitsgemeinde Rhede (Ems),1,1,0,0
+2020-06-22,Einheitsgemeinde Salzbergen,15,14,0,1
+2020-06-22,Samtgemeinde Sögel,7,6,0,1
+2020-06-22,Samtgemeinde Spelle,15,14,1,0
+2020-06-22,Einheitsgemeinde Twist,20,17,2,1
+2020-06-22,Samtgemeinde Werlte,14,14,0,0
+2020-06-22,Gesamt,462,429,25,8
+2020-06-23,Samtgemeinde Dörpen,12,11,1,0
+2020-06-23,Einheitsgemeinde Emsbüren,17,17,0,0
+2020-06-23,Samtgemeinde Freren,53,41,9,3
+2020-06-23,Einheitsgemeinde Geeste,18,18,0,0
+2020-06-23,Stadt Haren (Ems),32,31,1,0
+2020-06-23,Stadt Haselünne,32,32,0,0
+2020-06-23,Samtgemeinde Herzlake,10,10,0,0
+2020-06-23,Samtgemeinde Lathen,10,9,0,1
+2020-06-23,Samtgemeinde Lengerich,16,15,1,0
+2020-06-23,Stadt Lingen (Ems),76,72,4,0
+2020-06-23,Stadt Meppen,72,68,4,0
+2020-06-23,Samtgemeinde Nordhümmling,8,8,0,0
+2020-06-23,Stadt Papenburg,34,32,2,0
+2020-06-23,Einheitsgemeinde Rhede (Ems),1,1,0,0
+2020-06-23,Einheitsgemeinde Salzbergen,15,15,0,0
+2020-06-23,Samtgemeinde Sögel,7,7,0,0
+2020-06-23,Samtgemeinde Spelle,15,14,1,0
+2020-06-23,Einheitsgemeinde Twist,20,17,2,1
+2020-06-23,Samtgemeinde Werlte,14,14,0,0
+2020-06-23,Gesamt,462,432,25,5
+2020-06-24,Samtgemeinde Dörpen,12,11,1,0
+2020-06-24,Einheitsgemeinde Emsbüren,17,17,0,0
+2020-06-24,Samtgemeinde Freren,53,41,9,3
+2020-06-24,Einheitsgemeinde Geeste,18,18,0,0
+2020-06-24,Stadt Haren (Ems),32,31,1,0
+2020-06-24,Stadt Haselünne,32,32,0,0
+2020-06-24,Samtgemeinde Herzlake,10,10,0,0
+2020-06-24,Samtgemeinde Lathen,10,9,0,1
+2020-06-24,Samtgemeinde Lengerich,16,15,1,0
+2020-06-24,Stadt Lingen (Ems),76,72,4,0
+2020-06-24,Stadt Meppen,72,68,4,0
+2020-06-24,Samtgemeinde Nordhümmling,8,8,0,0
+2020-06-24,Stadt Papenburg,34,32,2,0
+2020-06-24,Einheitsgemeinde Rhede (Ems),1,1,0,0
+2020-06-24,Einheitsgemeinde Salzbergen,15,15,0,0
+2020-06-24,Samtgemeinde Sögel,7,7,0,0
+2020-06-24,Samtgemeinde Spelle,15,14,1,0
+2020-06-24,Einheitsgemeinde Twist,20,17,2,1
+2020-06-24,Samtgemeinde Werlte,14,14,0,0
+2020-06-24,Gesamt,462,432,25,5
+2020-06-25,Samtgemeinde Dörpen,12,11,1,0
+2020-06-25,Einheitsgemeinde Emsbüren,17,17,0,0
+2020-06-25,Samtgemeinde Freren,53,42,9,2
+2020-06-25,Einheitsgemeinde Geeste,18,18,0,0
+2020-06-25,Stadt Haren (Ems),32,31,1,0
+2020-06-25,Stadt Haselünne,32,32,0,0
+2020-06-25,Samtgemeinde Herzlake,10,10,0,0
+2020-06-25,Samtgemeinde Lathen,10,10,0,0
+2020-06-25,Samtgemeinde Lengerich,16,15,1,0
+2020-06-25,Stadt Lingen (Ems),76,72,4,0
+2020-06-25,Stadt Meppen,72,68,4,0
+2020-06-25,Samtgemeinde Nordhümmling,8,8,0,0
+2020-06-25,Stadt Papenburg,34,32,2,0
+2020-06-25,Einheitsgemeinde Rhede (Ems),1,1,0,0
+2020-06-25,Einheitsgemeinde Salzbergen,15,15,0,0
+2020-06-25,Samtgemeinde Sögel,7,7,0,0
+2020-06-25,Samtgemeinde Spelle,15,14,1,0
+2020-06-25,Einheitsgemeinde Twist,20,17,2,1
+2020-06-25,Samtgemeinde Werlte,14,14,0,0
+2020-06-25,Gesamt,462,434,25,3
+2020-06-26,Samtgemeinde Dörpen,12,11,1,0
+2020-06-26,Einheitsgemeinde Emsbüren,17,17,0,0
+2020-06-26,Samtgemeinde Freren,53,42,9,2
+2020-06-26,Einheitsgemeinde Geeste,18,18,0,0
+2020-06-26,Stadt Haren (Ems),32,31,1,0
+2020-06-26,Stadt Haselünne,32,32,0,0
+2020-06-26,Samtgemeinde Herzlake,10,10,0,0
+2020-06-26,Samtgemeinde Lathen,10,10,0,0
+2020-06-26,Samtgemeinde Lengerich,16,15,1,0
+2020-06-26,Stadt Lingen (Ems),76,72,4,0
+2020-06-26,Stadt Meppen,72,68,4,0
+2020-06-26,Samtgemeinde Nordhümmling,8,8,0,0
+2020-06-26,Stadt Papenburg,34,32,2,0
+2020-06-26,Einheitsgemeinde Rhede (Ems),1,1,0,0
+2020-06-26,Einheitsgemeinde Salzbergen,15,15,0,0
+2020-06-26,Samtgemeinde Sögel,7,7,0,0
+2020-06-26,Samtgemeinde Spelle,15,14,1,0
+2020-06-26,Einheitsgemeinde Twist,20,17,2,1
+2020-06-26,Samtgemeinde Werlte,14,14,0,0
+2020-06-26,Gesamt,462,434,25,3
+2020-06-27,Samtgemeinde Dörpen,12,11,1,0
+2020-06-27,Einheitsgemeinde Emsbüren,17,17,0,0
+2020-06-27,Samtgemeinde Freren,53,42,9,2
+2020-06-27,Einheitsgemeinde Geeste,18,18,0,0
+2020-06-27,Stadt Haren (Ems),32,31,1,0
+2020-06-27,Stadt Haselünne,32,32,0,0
+2020-06-27,Samtgemeinde Herzlake,10,10,0,0
+2020-06-27,Samtgemeinde Lathen,10,10,0,0
+2020-06-27,Samtgemeinde Lengerich,16,15,1,0
+2020-06-27,Stadt Lingen (Ems),76,72,4,0
+2020-06-27,Stadt Meppen,72,68,4,0
+2020-06-27,Samtgemeinde Nordhümmling,8,8,0,0
+2020-06-27,Stadt Papenburg,34,32,2,0
+2020-06-27,Einheitsgemeinde Rhede (Ems),1,1,0,0
+2020-06-27,Einheitsgemeinde Salzbergen,15,15,0,0
+2020-06-27,Samtgemeinde Sögel,7,7,0,0
+2020-06-27,Samtgemeinde Spelle,15,14,1,0
+2020-06-27,Einheitsgemeinde Twist,20,17,2,1
+2020-06-27,Samtgemeinde Werlte,14,14,0,0
+2020-06-27,Gesamt,462,434,25,3
+2020-06-28,Samtgemeinde Dörpen,12,11,1,0
+2020-06-28,Einheitsgemeinde Emsbüren,17,17,0,0
+2020-06-28,Samtgemeinde Freren,53,42,9,2
+2020-06-28,Einheitsgemeinde Geeste,18,18,0,0
+2020-06-28,Stadt Haren (Ems),32,31,1,0
+2020-06-28,Stadt Haselünne,32,32,0,0
+2020-06-28,Samtgemeinde Herzlake,10,10,0,0
+2020-06-28,Samtgemeinde Lathen,10,10,0,0
+2020-06-28,Samtgemeinde Lengerich,16,15,1,0
+2020-06-28,Stadt Lingen (Ems),76,72,4,0
+2020-06-28,Stadt Meppen,72,68,4,0
+2020-06-28,Samtgemeinde Nordhümmling,8,8,0,0
+2020-06-28,Stadt Papenburg,34,32,2,0
+2020-06-28,Einheitsgemeinde Rhede (Ems),1,1,0,0
+2020-06-28,Einheitsgemeinde Salzbergen,15,15,0,0
+2020-06-28,Samtgemeinde Sögel,10,7,0,3
+2020-06-28,Samtgemeinde Spelle,15,14,1,0
+2020-06-28,Einheitsgemeinde Twist,20,17,2,1
+2020-06-28,Samtgemeinde Werlte,14,14,0,0
+2020-06-28,Gesamt,465,434,25,6
+2020-06-29,Samtgemeinde Dörpen,12,11,1,0
+2020-06-29,Einheitsgemeinde Emsbüren,17,17,0,0
+2020-06-29,Samtgemeinde Freren,53,42,9,2
+2020-06-29,Einheitsgemeinde Geeste,18,18,0,0
+2020-06-29,Stadt Haren (Ems),33,31,1,1
+2020-06-29,Stadt Haselünne,32,32,0,0
+2020-06-29,Samtgemeinde Herzlake,10,10,0,0
+2020-06-29,Samtgemeinde Lathen,10,10,0,0
+2020-06-29,Samtgemeinde Lengerich,16,15,1,0
+2020-06-29,Stadt Lingen (Ems),76,72,4,0
+2020-06-29,Stadt Meppen,72,68,4,0
+2020-06-29,Samtgemeinde Nordhümmling,8,8,0,0
+2020-06-29,Stadt Papenburg,34,32,2,0
+2020-06-29,Einheitsgemeinde Rhede (Ems),1,1,0,0
+2020-06-29,Einheitsgemeinde Salzbergen,15,15,0,0
+2020-06-29,Samtgemeinde Sögel,12,7,0,5
+2020-06-29,Samtgemeinde Spelle,15,14,1,0
+2020-06-29,Einheitsgemeinde Twist,20,18,2,0
+2020-06-29,Samtgemeinde Werlte,14,14,0,0
+2020-06-29,Gesamt,468,435,25,8
+2020-06-30,Samtgemeinde Dörpen,12,11,1,0
+2020-06-30,Einheitsgemeinde Emsbüren,17,17,0,0
+2020-06-30,Samtgemeinde Freren,53,42,9,2
+2020-06-30,Einheitsgemeinde Geeste,18,18,0,0
+2020-06-30,Stadt Haren (Ems),33,31,1,1
+2020-06-30,Stadt Haselünne,32,32,0,0
+2020-06-30,Samtgemeinde Herzlake,10,10,0,0
+2020-06-30,Samtgemeinde Lathen,10,10,0,0
+2020-06-30,Samtgemeinde Lengerich,16,15,1,0
+2020-06-30,Stadt Lingen (Ems),76,72,4,0
+2020-06-30,Stadt Meppen,72,68,4,0
+2020-06-30,Samtgemeinde Nordhümmling,8,8,0,0
+2020-06-30,Stadt Papenburg,34,32,2,0
+2020-06-30,Einheitsgemeinde Rhede (Ems),1,1,0,0
+2020-06-30,Einheitsgemeinde Salzbergen,15,15,0,0
+2020-06-30,Samtgemeinde Sögel,12,7,0,5
+2020-06-30,Samtgemeinde Spelle,15,14,1,0
+2020-06-30,Einheitsgemeinde Twist,20,18,2,0
+2020-06-30,Samtgemeinde Werlte,14,14,0,0
+2020-06-30,Gesamt,468,435,25,8
 2020-07-01,Samtgemeinde Dörpen,12,11,1,0
 2020-07-01,Einheitsgemeinde Emsbüren,17,17,0,0
 2020-07-01,Samtgemeinde Freren,53,44,9,0

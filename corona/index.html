@@ -4,6 +4,14 @@
     <meta charset="utf-8">
     <title>Corona</title>
     <link rel="stylesheet" type="text/css" href="libs/Semantic-UI/semantic.min.css">
+    <style >
+        body {
+            margin: 20px;
+        }
+        #selectorDiv{
+            width: 500px;
+        }
+    </style>
     <script src="libs/d3/d3.min.js"></script>
     <script src="libs/chartjs/Chart.min.js"></script>
     <script src="libs/jQuery/jquery-3.5.1.min.js"></script>
@@ -14,8 +22,9 @@
 <body>
 <h1>Corona cases for Emsland</h1>  
 
-<!-- <select id="selection" name="#selection" multiple="" class="ui fluid dropdown" onchange="loadData()">
-    <option value="">Selection</option>
+<!-- <div id="selectorDiv">
+<select id="selectRegion" name="#selectRegion" multiple="" class="ui fluid dropdown" onchange="loadData()">
+    <option value="">Select Kommune</option>
   <option value="doerpen">Samtgemeinde Dörpen</option>
   <option value="freren">Samtgemeinde Freren</option>
   <option value="geeste">Einheitsgemeinde Geeste</option>
@@ -35,7 +44,20 @@
   <option value="twist">Einheitsgemeinde Twist</option>
   <option value="werlte">Samtgemeinde Werlte</option>
   <option value="gesamt">Gesamt</option>
-  </select> -->
+  </select>
+
+  <select id="selectDataType" name="#selectDataType" class="ui fluid dropdown" onchange="loadData()">
+    <option value="">Select Datentyp</option>
+  <option value="faelle">Faelle</option>
+  <option value="faelle100k">Faelle / 100k</option>
+  <option value="genesen">Genesen</option>
+  <option value="genesen100k">Genesen / 100k</option>
+  <option value="verstorben">Verstorben</option>
+  <option value="verstorben100k">Verstorben / 100k</option>
+  <option value="aktuell">Aktuell Infizierte</option>
+  <option value="aktuell100k">Aktuell Infizierte / 100k</option>
+  </select>
+</div> -->
 
 <div id="divContainer">
     <canvas id="canvas"></canvas>
@@ -64,6 +86,6 @@
 </ul>
 </body></html>
 <script>
-//   $('.ui.dropdown')
-//    .dropdown();
+   $('.ui.dropdown')
+    .dropdown();
 </script>

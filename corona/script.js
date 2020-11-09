@@ -91,7 +91,7 @@ function fetchCSVData(url){
             current100k: +data.current/factor100k
         };
     }).then(function (data) {
-        generateAllDataGraph(data);
+        generateAllDataGraph(data,"faelle");
         csvData = data
         console.log("fetch data end");
     });
@@ -99,50 +99,65 @@ function fetchCSVData(url){
 
 function generateAllDataGraph(data, dataType) {
     console.log("START generateAllDataGraph");
+
     var xValues = Array.from(d3.group(data, d => d.datumString).keys())
     var dataSets = Array.from(d3.group(data, d => d.kommune));
 
+    chart.data.datasets = []
     chart.data.labels = xValues;
     var ds = dataSets.forEach(function(d){
         var colorNames = Object.keys(window.chartColors);
         var col = colorNames[chart.data.datasets.length % colorNames.length];
         var data = {}
-        // switch(dataType) {
-        //     case 'faelle':
+        var chartTitle = ""
+        switch(dataType) {
+            case 'faelle':
               data = d[1].map(d => d.faelle)
-        //       break;
-        //     case 'faelle100k':
-        //         data = d[1].map(d => d.faelle100k)
-        //       break;
-        //     case 'genesen':
-        //         data = d[1].map(d => d.genesen)
-        //         break;
-        //     case 'verstorben':
-        //         data = d[1].map(d => d.verstorben)
-        //         break;
-        //     case 'aktuell':
-        //         data = d[1].map(d => d.current)
-        //         break;
-        //     case 'genesen100k':
-        //         data = d[1].map(d => d.genesen100k)
-        //         break;
-        //     case 'verstorben100k':
-        //         data = d[1].map(d => d.verstorben100k)
-        //         break;
-        //     case 'aktuell100k':
-        //         data = d[1].map(d => d.current100k)
-        //         break;
-        //     default:
-        //   }
-        var newDataset = {
-            label: d[0],
-            backgroundColor: col,
-            borderColor: col,
-            data: data,
-            fill: false,
-            hidden: true
+              chartTitle = "Falle (kummuliert) im Emsland"
+              break;
+            case 'faelle100k':
+                data = d[1].map(d => d.faelle100k)
+                chartTitle = "Falle (kummuliert) im Emsland / je 100k Einwohner"
+              break;
+            case 'genesen':
+                data = d[1].map(d => d.genesen)
+                chartTitle = "Genesene (kummuliert) im Emsland"
+                break;
+            case 'verstorben':
+                data = d[1].map(d => d.verstorben)
+                chartTitle = "Verstorbene (kummuliert) im Emsland"
+                break;
+            case 'aktuell':
+                data = d[1].map(d => d.current)
+                chartTitle = "Anzahl Infizierte im Emsland"
+                break;
+            case 'genesen100k':
+                data = d[1].map(d => d.genesen100k)
+                chartTitle = "Genesene (kummuliert) im Emsland / je 100k Einwohner"
+                break;
+            case 'verstorben100k':
+                data = d[1].map(d => d.verstorben100k)
+                chartTitle = "Verstorbene (kummuliert) im Emsland / je 100k Einwohner"
+                break;
+            case 'aktuell100k':
+                data = d[1].map(d => d.current100k)
+                chartTitle = "Anzahl Infizierte im Emsland / je 100k Einwohner"
+                break;
+            default:
+          }
+        if(data.length > 0 )
+        {
+            var newDataset = {
+                label: d[0],
+                backgroundColor: col,
+                borderColor: col,
+                data: data,
+                fill: false,
+                hidden: true
+            }
+            chart.options.title.text = chartTitle;
+            chart.data.datasets.push(newDataset);
         }
-        chart.data.datasets.push(newDataset);
     })  
     
     window.myLine.update()

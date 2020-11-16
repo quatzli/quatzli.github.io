@@ -189,7 +189,7 @@ function getSelectedDataType() {
 function getSelectedRegions() {
     var e = document.getElementById("selectRegion")
     var a = Array.from(e.selectedOptions).map(v => v.text);
-    console.log(a);
+    //console.log(a);
     return a;
 }
 

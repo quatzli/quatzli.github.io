@@ -1,16 +1,25 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
     <meta charset="utf-8">
     <title>Corona</title>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.7/dist/semantic.min.css">
-    <style >
+    <style>
         body {
             width: 80%;
             margin: 0 auto;
         }
-        #selectorDiv{
+
+        #selectorDiv {
+            margin: 0 auto;
             width: 500px;
+        }
+
+        .formDiv {
+            margin: 0 auto;
+            text-align: center;
+            align-content: center;
         }
     </style>
     <script src="libs/d3/d3.min.js"></script>
@@ -21,73 +30,114 @@
 </head>
 
 <body>
-<h1>Corona cases for Emsland</h1>  
+    <h1>Corona cases for Emsland</h1>
 
-<div id="selectorDiv">
-<select id="selectRegion" name="#selectRegion" multiple="" class="ui fluid dropdown" onchange="loadData()">
-    <option value="">Select Kommune</option>
-  <option value="doerpen">Samtgemeinde Dörpen</option>
-  <option value="freren">Samtgemeinde Freren</option>
-  <option value="geeste">Einheitsgemeinde Geeste</option>
-  <option value="haren">Stadt Haren (Ems)</option>
-  <option value="haseluenne">Stadt Haselünne</option>
-  <option value="herzlake">Samtgemeinde Herzlake</option>
-  <option value="lathen">Samtgemeinde Lathen</option>
-  <option value="lengerich">Samtgemeinde Lengerich</option>
-  <option value="lingen">Stadt Lingen (Ems)</option>
-  <option value="meppen">Stadt Meppen</option>
-  <option value="nordhuemmling">Samtgemeinde Nordhümmling</option>
-  <option value="papenburg">Stadt Papenburg</option>
-  <option value="rhede">Einheitsgemeinde Rhede (Ems)</option>
-  <option value="salzbergen">Einheitsgemeinde Salzbergen</option>
-  <option value="soegel">Samtgemeinde Sögel</option>
-  <option value="spelle">Samtgemeinde Spelle</option>
-  <option value="twist">Einheitsgemeinde Twist</option>
-  <option value="werlte">Samtgemeinde Werlte</option>
-  <option value="gesamt">Gesamt</option>
-  </select>
+    <div class="formDiv">
+        <!--<div class="field">
+            <label>Start date</label>
+            <div class="ui calendar" id="rangestart">
+                <div class="ui input left icon">
+                    <i class="calendar icon"></i>
+                    <input type="text" placeholder="Start">
+                </div>
+            </div>
+        </div>
+        <div class="field">
+            <label>End date</label>
+            <div class="ui calendar" id="rangeend">
+                <div class="ui input left icon">
+                    <i class="calendar icon"></i>
+                    <input type="text" placeholder="End" onchange="loadData()">
+                </div>
+            </div>
+        </div>-->
+        <br>
 
-  <select id="selectDataType" name="#selectDataType" multiple="" class="ui fluid dropdown" onchange="loadData()">
-    <option value="">Select Datentyp</option>
-  <option value="faelle">Faelle</option>
-  <option value="faelle100k">Faelle / 100k</option>
-  <option value="genesen">Genesen</option>
-  <option value="genesen100k">Genesen / 100k</option>
-  <option value="verstorben">Verstorben</option>
-  <option value="verstorben100k">Verstorben / 100k</option>
-  <option value="aktuell">Aktuell Infizierte</option>
-  <option value="aktuell100k">Aktuell Infizierte / 100k</option>
-  </select>
-</div>
+        <div id="selectorDiv">
+            <select id="selectRegion" name="#selectRegion" multiple="" class="ui fluid dropdown" onchange="loadData()">
+                <option value="">Select Kommune</option>
+                <option value="doerpen">Samtgemeinde Dörpen</option>
+                <option value="freren">Samtgemeinde Freren</option>
+                <option value="geeste">Einheitsgemeinde Geeste</option>
+                <option value="haren">Stadt Haren (Ems)</option>
+                <option value="haseluenne">Stadt Haselünne</option>
+                <option value="herzlake">Samtgemeinde Herzlake</option>
+                <option value="lathen">Samtgemeinde Lathen</option>
+                <option value="lengerich">Samtgemeinde Lengerich</option>
+                <option value="lingen">Stadt Lingen (Ems)</option>
+                <option value="meppen">Stadt Meppen</option>
+                <option value="nordhuemmling">Samtgemeinde Nordhümmling</option>
+                <option value="papenburg">Stadt Papenburg</option>
+                <option value="rhede">Einheitsgemeinde Rhede (Ems)</option>
+                <option value="salzbergen">Einheitsgemeinde Salzbergen</option>
+                <option value="soegel">Samtgemeinde Sögel</option>
+                <option value="spelle">Samtgemeinde Spelle</option>
+                <option value="twist">Einheitsgemeinde Twist</option>
+                <option value="werlte">Samtgemeinde Werlte</option>
+                <option value="gesamt">Gesamt</option>
+            </select>
+            <br>
+            <select id="selectDataType" name="#selectDataType" multiple="" class="ui fluid dropdown"
+                onchange="loadData()">
+                <option value="">Select Datentyp</option>
+                <option value="faelle">Faelle</option>
+                <option value="faelle100k">Faelle / 100k</option>
+                <option value="genesen">Genesen</option>
+                <option value="genesen100k">Genesen / 100k</option>
+                <option value="verstorben">Verstorben</option>
+                <option value="verstorben100k">Verstorben / 100k</option>
+                <option value="aktuell">Aktuell Infizierte</option>
+                <option value="aktuell100k">Aktuell Infizierte / 100k</option>
+            </select>
+        </div>
+    </div>
 
-<div id="divContainer">
-    <canvas id="canvas"></canvas>
-</div>
+    <div id="divContainer">
+        <canvas id="canvas"></canvas>
+    </div>
 
-<h2>
-    Resources
-</h2>
-<span>Datasources:</span>
-<ul>
-    <li><a href="https://www.facebook.com/landkreisemsland" target="_blank">Landkreis Emsland (Facebook)</a></li>
-    <li><a href="https://www.emsland.de/buerger-behoerde/aktuell/coronavirus/fallzahlen-den-emslaendischen-kommunen.html" target="_blank">Landkreis Emsland</a></li>
-    <li><a href="https://wikipedia.org" target="_blank">Wikipedia</a></li>
-</ul>
-<span>Following resources have been used scripting this page</span>
-<ul>
-    <li><a href="https://d3js.org" target="_blank">D3.js</a></li>
-    <li><a href="https://www.chartjs.org" target="_blank">Chart.js</a></li>
-    <li><a href="https://github.com" target="_blank">GitHub</a></li>
-    <li><a href="https://jquery.com/" target="_blank">jQuery</a></li>
-    <li><a href="https://semantic-ui.com/" target="_blank">Semantic UI</a></li>
-    <li><a href="https://fomantic-ui.com" target="_blank">Fomantic UI</a></li>
-</ul>
-<span>Ideas</span>
-<ul>
-    <li><a href="https://rsalzer.github.io/COVID_19_CH/" target="_blank">https://rsalzer.github.io/COVID_19_CH/</a></li>
-</ul>
-</body></html>
+    <h2>
+        Resources
+    </h2>
+    <span>Datasources:</span>
+    <ul>
+        <li><a href="https://www.facebook.com/landkreisemsland" target="_blank">Landkreis Emsland (Facebook)</a></li>
+        <li><a href="https://www.emsland.de/buerger-behoerde/aktuell/coronavirus/fallzahlen-den-emslaendischen-kommunen.html"
+                target="_blank">Landkreis Emsland</a></li>
+        <li><a href="https://wikipedia.org" target="_blank">Wikipedia</a></li>
+    </ul>
+    <span>Following resources have been used scripting this page</span>
+    <ul>
+        <li><a href="https://d3js.org" target="_blank">D3.js</a></li>
+        <li><a href="https://www.chartjs.org" target="_blank">Chart.js</a></li>
+        <li><a href="https://github.com" target="_blank">GitHub</a></li>
+        <li><a href="https://jquery.com/" target="_blank">jQuery</a></li>
+        <li><a href="https://semantic-ui.com/" target="_blank">Semantic UI</a></li>
+        <li><a href="https://fomantic-ui.com" target="_blank">Fomantic UI</a></li>
+    </ul>
+    <span>Ideas</span>
+    <ul>
+        <li><a href="https://rsalzer.github.io/COVID_19_CH/" target="_blank">https://rsalzer.github.io/COVID_19_CH/</a>
+        </li>
+    </ul>
+</body>
+
+</html>
 <script>
-   $('.ui.dropdown')
-    .dropdown();
+    $('.ui.dropdown')
+        .dropdown();
+
+    var today = new Date();
+    $('#rangestart').calendar({
+        type: 'date',
+        minDate: new Date('2020-03-09T00:00:00'),
+        maxDate: new Date(today.getFullYear(), today.getMonth(), today.getDate()),
+        endCalendar: $('#rangeend')
+    });
+    $('#rangeend').calendar({
+        type: 'date',
+        minDate: new Date('2020-03-09T00:00:00'),
+        maxDate: new Date(today.getFullYear(), today.getMonth(), today.getDate()),
+        startCalendar: $('#rangestart')
+    });
 </script>

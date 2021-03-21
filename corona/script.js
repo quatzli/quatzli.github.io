@@ -10,7 +10,7 @@ var chart = {
         responsive: true,
         title: {
             display: true,
-            text: 'Fälle (kummuliert) aller Kommunen'
+            text: 'Corona im Emsland'
         },
         tooltips: {
             mode: 'index',
@@ -119,70 +119,72 @@ function generateAllDataGraph(data, dataType, regions) {
     var xValues = Array.from(d3.group(data, d => d.datumString).keys())
     var dataSets = Array.from(d3.group(data, d => d.kommune));
 
-    // console.log(dataSets);
-    // console.log(xValues);
-
     chart.data.datasets = []
     chart.data.labels = xValues;
 
     var ds = dataSets.forEach(function (d) {
 
         var data = {}
+        var labell = {}
         var chartTitle = ""
 
         // if region is in the selection, add to chart
         if (regions.indexOf(d[0]) > -1) {
-            
-            // get color for next diagram. 
-            var col = window.chartColors[chart.data.datasets.length % window.chartColors.length];
 
-            switch (dataType) {
-                case 'faelle':
-                    data = d[1].map(d => d.faelle)
-                    chartTitle = "Falle (kummuliert) im Emsland"
-                    break;
-                case 'faelle100k':
-                    data = d[1].map(d => d.faelle100k)
-                    chartTitle = "Falle (kummuliert) im Emsland / je 100k Einwohner"
-                    break;
-                case 'genesen':
-                    data = d[1].map(d => d.genesen)
-                    chartTitle = "Genesene (kummuliert) im Emsland"
-                    break;
-                case 'verstorben':
-                    data = d[1].map(d => d.verstorben)
-                    chartTitle = "Verstorbene (kummuliert) im Emsland"
-                    break;
-                case 'aktuell':
-                    data = d[1].map(d => d.current)
-                    chartTitle = "Anzahl Infizierte im Emsland"
-                    break;
-                case 'genesen100k':
-                    data = d[1].map(d => d.genesen100k)
-                    chartTitle = "Genesene (kummuliert) im Emsland / je 100k Einwohner"
-                    break;
-                case 'verstorben100k':
-                    data = d[1].map(d => d.verstorben100k)
-                    chartTitle = "Verstorbene (kummuliert) im Emsland / je 100k Einwohner"
-                    break;
-                case 'aktuell100k':
-                    data = d[1].map(d => d.current100k)
-                    chartTitle = "Anzahl Infizierte im Emsland / je 100k Einwohner"
-                    break;
-                default:
-            }
-        }
-        if (data.length > 0) {
-            var newDataset = {
-                label: d[0],
-                backgroundColor: col,
-                borderColor: col,
-                data: data,
-                fill: false,
-                hidden: false
-            }
-            chart.options.title.text = chartTitle;
-            chart.data.datasets.push(newDataset);
+            dataType.forEach(function (e){
+
+                // get color for next diagram. 
+                var col = window.chartColors[chart.data.datasets.length % window.chartColors.length];
+
+                switch (e) {
+                    case 'faelle':
+                        label = d[0] + " faelle";
+                        data = d[1].map(d => d.faelle)
+                        break; 
+                    case 'faelle100k':
+                        label = d[0] + " faelle/100k";
+                        data = d[1].map(d => d.faelle100k)
+                        break;
+                    case 'genesen':
+                        label = d[0] + " genesene";
+                        data = d[1].map(d => d.genesen)
+                        break;
+                    case 'verstorben':
+                        label = d[0] + " verstorbene";
+                        data = d[1].map(d => d.verstorben)
+                        break;
+                    case 'aktuell':
+                        label = d[0] + " aktuell Infizierte";
+                        data = d[1].map(d => d.current)
+                        break;
+                    case 'genesen100k':
+                        label = d[0] + " genesene/100k";
+                        data = d[1].map(d => d.genesen100k)
+                        break;
+                    case 'verstorben100k':
+                        label = d[0] + " verstorbene/100k";
+                        data = d[1].map(d => d.verstorben100k)
+                        break;
+                    case 'aktuell100k':
+                        label = d[0] + " aktuell Infizierte/100k";
+                        data = d[1].map(d => d.current100k)
+                        break;
+                    default:
+                }
+
+                if (data.length > 0) {
+                    var newDataset = {
+                        label: label,
+                        backgroundColor: col,
+                        borderColor: col,
+                        data: data,
+                        fill: false,
+                        hidden: false
+                    }
+                    chart.options.title.text = chartTitle;
+                    chart.data.datasets.push(newDataset);
+                }
+            });
         }
     })
 
@@ -192,14 +194,13 @@ function generateAllDataGraph(data, dataType, regions) {
 
 function getSelectedDataType() {
     var e = document.getElementById("selectDataType");
-    var selecetedValue = e.options[e.selectedIndex].value;
-    return selecetedValue;
+    var a = Array.from(e.selectedOptions).map(v => v.value);
+    return a;
 }
 
 function getSelectedRegions() {
     var e = document.getElementById("selectRegion")
     var a = Array.from(e.selectedOptions).map(v => v.text);
-    //console.log(a);
     return a;
 }
 

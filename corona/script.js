@@ -62,29 +62,31 @@ const population = {
     "Gesamt": 325657,
 };
 
-// window.chartColors = [ 
-//     "FF0000", "00FF00", "0000FF", "FFFF00", "FF00FF", "00FFFF", "000000", 
-//     "800000", "008000", "000080", "808000", "800080", "008080", "808080", 
-//     "C00000", "00C000", "0000C0", "C0C000", "C000C0", "00C0C0", "C0C0C0", 
-//     "400000", "004000", "000040", "404000", "400040", "004040", "404040", 
-//     "200000", "002000", "000020", "202000", "200020", "002020", "202020", 
-//     "600000", "006000", "000060", "606000", "600060", "006060", "606060", 
-//     "A00000", "00A000", "0000A0", "A0A000", "A000A0", "00A0A0", "A0A0A0", 
-//     "E00000", "00E000", "0000E0", "E0E000", "E000E0", "00E0E0", "E0E0E0", 
-// ];
+window.chartColors = [ 
+    "FF0000", "00FF00", "0000FF", "FFFF00", "FF00FF", "00FFFF", "000000", 
+    "800000", "008000", "000080", "808000", "800080", "008080", "808080", 
+    "C00000", "00C000", "0000C0", "C0C000", "C000C0", "00C0C0", "C0C0C0", 
+    "400000", "004000", "000040", "404000", "400040", "004040", "404040", 
+    "200000", "002000", "000020", "202000", "200020", "002020", "202020", 
+    "600000", "006000", "000060", "606000", "600060", "006060", "606060", 
+    "A00000", "00A000", "0000A0", "A0A000", "A000A0", "00A0A0", "A0A0A0", 
+    "E00000", "00E000", "0000E0", "E0E000", "E000E0", "00E0E0", "E0E0E0", 
+];
 
-window.chartColors = {
-    red: 'rgb(255, 99, 132)',
-    orange: 'rgb(255, 159, 64)',
-    lightblue: 'rgb(37, 182, 247)',
-    green: 'rgb(75, 192, 192)',
-    blue: 'rgb(54, 162, 235)',
-    purple: 'rgb(153, 102, 255)',
-    grey: 'rgb(201, 203, 207)',
-    pink: 'rgb(250, 6, 175)',
-    lila: 'rgb(70, 1, 224)',
-    black: 'rgb(0, 0, 0)'
-};
+{ // comment window.charColors
+// window.chartColors = {
+//     red: 'rgb(255, 99, 132)',
+//     orange: 'rgb(255, 159, 64)',
+//     lightblue: 'rgb(37, 182, 247)',
+//     green: 'rgb(75, 192, 192)',
+//     blue: 'rgb(54, 162, 235)',
+//     purple: 'rgb(153, 102, 255)',
+//     grey: 'rgb(201, 203, 207)',
+//     pink: 'rgb(250, 6, 175)',
+//     lila: 'rgb(70, 1, 224)',
+//     black: 'rgb(0, 0, 0)'
+// };
+}
 
 function fetchCSVData(url) {
     console.log("fetch data start");
@@ -117,15 +119,23 @@ function generateAllDataGraph(data, dataType, regions) {
     var xValues = Array.from(d3.group(data, d => d.datumString).keys())
     var dataSets = Array.from(d3.group(data, d => d.kommune));
 
+    // console.log(dataSets);
+    // console.log(xValues);
+
     chart.data.datasets = []
     chart.data.labels = xValues;
+
     var ds = dataSets.forEach(function (d) {
-        var colorNames = Object.keys(window.chartColors);
-        var col = colorNames[chart.data.datasets.length % colorNames.length];
+
         var data = {}
         var chartTitle = ""
 
+        // if region is in the selection, add to chart
         if (regions.indexOf(d[0]) > -1) {
+            
+            // get color for next diagram. 
+            var col = window.chartColors[chart.data.datasets.length % window.chartColors.length];
+
             switch (dataType) {
                 case 'faelle':
                     data = d[1].map(d => d.faelle)

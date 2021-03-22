@@ -146,35 +146,35 @@ function generateAllDataGraph(data, dataType, regions) {
 
                 switch (e) {
                     case 'faelle':
-                        label = d[0] + " faelle";
+                        label = d[0] + " - Faelle";
                         data = d[1].map(d => d.faelle)
                         break; 
                     case 'faelle100k':
-                        label = d[0] + " faelle/100k";
+                        label = d[0] + " - Faelle/100k";
                         data = d[1].map(d => d.faelle100k)
                         break;
                     case 'genesen':
-                        label = d[0] + " genesene";
+                        label = d[0] + " - Genesene";
                         data = d[1].map(d => d.genesen)
                         break;
                     case 'verstorben':
-                        label = d[0] + " verstorbene";
+                        label = d[0] + " - Verstorbene";
                         data = d[1].map(d => d.verstorben)
                         break;
                     case 'aktuell':
-                        label = d[0] + " aktuell Infizierte";
+                        label = d[0] + " - Aktuell Infizierte";
                         data = d[1].map(d => d.current)
                         break;
                     case 'genesen100k':
-                        label = d[0] + " genesene/100k";
+                        label = d[0] + " - Genesene/100k";
                         data = d[1].map(d => d.genesen100k)
                         break;
                     case 'verstorben100k':
-                        label = d[0] + " verstorbene/100k";
+                        label = d[0] + " - Verstorbene/100k";
                         data = d[1].map(d => d.verstorben100k)
                         break;
                     case 'aktuell100k':
-                        label = d[0] + " aktuell Infizierte/100k";
+                        label = d[0] + " - Aktuell Infizierte/100k";
                         data = d[1].map(d => d.current100k)
                         break;
                     default:

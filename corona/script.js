@@ -255,7 +255,7 @@ function calculate7DayIncidence(data){
     
     dataSets = Array.from(d3.group(data, d => d.kommune));
     
-    console.log("Incidence for date: " + checkDate);
+    //console.log("Incidence for date: " + checkDate);
     incDiv.innerHTML = incDiv.innerHTML + "<br><b> Incidence for date: " + checkDate.yyyymmdd() + "</b><br>";
     
     dataSets.forEach(function (e){
@@ -270,7 +270,7 @@ function calculate7DayIncidence(data){
             return f.datumDate.getTime() === checkCurrentDate.getTime();
         });
         
-        console.log("Incidence " + e[0] + ": " + Math.ceil((((filterdNow[0].faelle-filterdOld[0].faelle))/population[e[0]] * 100000)));
+        //console.log("Incidence " + e[0] + ": " + Math.ceil((((filterdNow[0].faelle-filterdOld[0].faelle))/population[e[0]] * 100000)));
         incDiv.innerHTML = incDiv.innerHTML + "<br>" + e[0] + ": " + Math.ceil((((filterdNow[0].faelle-filterdOld[0].faelle))/population[e[0]] * 100000)) 
     });
 }

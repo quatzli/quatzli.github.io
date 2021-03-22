@@ -1,5 +1,18 @@
 var csvData = []
 
+// see https://stackoverflow.com/a/3067896
+Date.prototype.yyyymmdd = function() {
+    var mm = this.getMonth() + 1; // getMonth() is zero-based
+    var dd = this.getDate();
+  
+    return [this.getFullYear(),
+            "-",
+            (mm>9 ? '' : '0') + mm,
+            "-",
+            (dd>9 ? '' : '0') + dd
+           ].join('');
+  };
+
 var chart = {
     type: 'line',
     data: {
@@ -52,7 +65,7 @@ const population = {
     "Stadt Lingen (Ems)": 54708,
     "Stadt Meppen": 34862,
     "Samtgemeinde Nordhümmling": 12226,
-    "Stadt Papenburg": 35268,
+    "Stadt Papenburg": 38198,
     "Einheitsgemeinde Rhede (Ems)": 4218,
     "Einheitsgemeinde Salzbergen": 7590,
     "Samtgemeinde Sögel": 15923,
@@ -73,21 +86,6 @@ window.chartColors = [
     "E00000", "00E000", "0000E0", "E0E000", "E000E0", "00E0E0", "E0E0E0", 
 ];
 
-{ // comment window.charColors
-// window.chartColors = {
-//     red: 'rgb(255, 99, 132)',
-//     orange: 'rgb(255, 159, 64)',
-//     lightblue: 'rgb(37, 182, 247)',
-//     green: 'rgb(75, 192, 192)',
-//     blue: 'rgb(54, 162, 235)',
-//     purple: 'rgb(153, 102, 255)',
-//     grey: 'rgb(201, 203, 207)',
-//     pink: 'rgb(250, 6, 175)',
-//     lila: 'rgb(70, 1, 224)',
-//     black: 'rgb(0, 0, 0)'
-// };
-}
-
 function fetchCSVData(url) {
     return d3.csv(url, function (data) {
         var parseTime = d3.timeParse("%Y-%m-%d")
@@ -107,6 +105,7 @@ function fetchCSVData(url) {
         };
     }).then(function (data) {
         generateAllDataGraph(data, "faelle", []);
+        calculate7DayIncidence(data);
         csvData = data
     });
 }
@@ -123,10 +122,8 @@ function filterByDate(data){
 function generateAllDataGraph(data, dataType, regions) {
 
     // filter data by date
-    console.log(data);
     data = filterByDate(data);
-    console.log(data);
-
+    
     var xValues = Array.from(d3.group(data, d => d.datumString).keys())
     var dataSets = Array.from(d3.group(data, d => d.kommune));
 
@@ -247,4 +244,39 @@ function loadData() {
     var dataType = getSelectedDataType();
     var regions = getSelectedRegions();
     generateAllDataGraph(csvData, dataType, regions);
+}
+
+function calculate7DayIncidence(data){
+    var incDiv = document.querySelector("#incidenceDiv");
+    var checkDate = getLatestDate(data);
+        
+    var checkOldDate = new Date(checkDate.getFullYear(), checkDate.getMonth(), checkDate.getDate()-7);
+    var checkCurrentDate = new Date(checkDate.getFullYear(), checkDate.getMonth(), checkDate.getDate());
+    
+    dataSets = Array.from(d3.group(data, d => d.kommune));
+    
+    console.log("Incidence for date: " + checkDate);
+    incDiv.innerHTML = incDiv.innerHTML + "<br><b> Incidence for date: " + checkDate.yyyymmdd() + "</b><br>";
+    
+    dataSets.forEach(function (e){
+
+        // get data from 7 days ago
+        var filterdOld = e[1].filter(function (f){
+            return f.datumDate.getTime() === checkOldDate.getTime();
+        });
+        
+        // get current data
+        var filterdNow = e[1].filter(function (f){
+            return f.datumDate.getTime() === checkCurrentDate.getTime();
+        });
+        
+        console.log("Incidence " + e[0] + ": " + Math.ceil((((filterdNow[0].faelle-filterdOld[0].faelle))/population[e[0]] * 100000)));
+        incDiv.innerHTML = incDiv.innerHTML + "<br>" + e[0] + ": " + Math.ceil((((filterdNow[0].faelle-filterdOld[0].faelle))/population[e[0]] * 100000)) 
+    });
+}
+
+function getLatestDate(data){
+    return new Date(Math.max.apply(null, data.map(function (e){
+        return new Date(e.datumDate);
+    })));
 }

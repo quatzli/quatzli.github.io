@@ -89,7 +89,6 @@ window.chartColors = [
 }
 
 function fetchCSVData(url) {
-    console.log("fetch data start");
     return d3.csv(url, function (data) {
         var parseTime = d3.timeParse("%Y-%m-%d")
         var factor100k = (population[data.kommune] / 100000)
@@ -109,12 +108,24 @@ function fetchCSVData(url) {
     }).then(function (data) {
         generateAllDataGraph(data, "faelle", []);
         csvData = data
-        console.log("fetch data end");
     });
 }
 
+function filterByDate(data){
+    var minDate = getMinDate();
+    var maxDate = getMaxDate();
+    var newData = data.filter(function (e){
+        return e.datumDate >= minDate && e.datumDate <= maxDate;
+    });
+    return newData;
+}
+
 function generateAllDataGraph(data, dataType, regions) {
-    console.log("START generateAllDataGraph");
+
+    // filter data by date
+    console.log(data);
+    data = filterByDate(data);
+    console.log(data);
 
     var xValues = Array.from(d3.group(data, d => d.datumString).keys())
     var dataSets = Array.from(d3.group(data, d => d.kommune));
@@ -175,8 +186,8 @@ function generateAllDataGraph(data, dataType, regions) {
                 if (data.length > 0) {
                     var newDataset = {
                         label: label,
-                        backgroundColor: col,
-                        borderColor: col,
+                        backgroundColor: "#"+col,
+                        borderColor: "#"+col,
                         data: data,
                         fill: false,
                         hidden: false
@@ -189,7 +200,6 @@ function generateAllDataGraph(data, dataType, regions) {
     })
 
     window.myLine.update()
-    console.log("END generateAllDataGraph");
 }
 
 function getSelectedDataType() {
@@ -204,6 +214,26 @@ function getSelectedRegions() {
     return a;
 }
 
+function getMinDate(){
+    var retValue = new Date("2020-03-08T00:00:00");
+    var selectedDate = document.querySelector(".mindate").value;
+    if(selectedDate)
+    {
+        retValue = new Date(selectedDate);
+    }
+    return retValue;
+}
+
+function getMaxDate(){
+    var retValue = new Date();
+    var selectedDate = document.querySelector(".maxdate").value;
+    if(selectedDate)
+    {
+        retValue = new Date(selectedDate);
+    }
+    return retValue;
+}
+
 window.addEventListener("load", function () {
     console.log("START");
     var ctx = document.getElementById('canvas').getContext('2d');
@@ -214,9 +244,7 @@ window.addEventListener("load", function () {
 });
 
 function loadData() {
-    console.log("START loadData");
     var dataType = getSelectedDataType();
     var regions = getSelectedRegions();
     generateAllDataGraph(csvData, dataType, regions);
-    console.log("END loadData")
 }

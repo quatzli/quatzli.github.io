@@ -38,7 +38,7 @@ var chart = {
                 display: true,
                 scaleLabel: {
                     display: true,
-                    labelString: 'Month'
+                    labelString: 'Date'
                 }
             }],
             yAxes: [{

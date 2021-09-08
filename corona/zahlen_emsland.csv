@@ -1,4 +1,4 @@
-#datum,kommune,faelle,genesen,verstorben,current
+#datum,kommune,faelle,genesen,verstorben,current,inzidenz
 2020-03-09,Samtgemeinde Dörpen,0,0,0,0
 2020-03-09,Einheitsgemeinde Emsbüren,0,0,0,0
 2020-03-09,Samtgemeinde Freren,0,0,0,0
@@ -10158,7 +10158,7 @@
 2021-07-29,Samtgemeinde Spelle,617,594,15,8
 2021-07-29,Einheitsgemeinde Twist,257,253,3,1
 2021-07-29,Samtgemeinde Werlte,873,852,19,2
-2021-07-29,Gesamt,12790,12537,188,65
+2021-07-29,Gesamt,12790,12537,188,65,11.3
 2021-07-30,Samtgemeinde Dörpen,452,448,3,1
 2021-07-30,Einheitsgemeinde Emsbüren,336,336,0,0
 2021-07-30,Samtgemeinde Freren,607,588,16,3
@@ -10178,7 +10178,7 @@
 2021-07-30,Samtgemeinde Spelle,617,594,15,8
 2021-07-30,Einheitsgemeinde Twist,257,253,3,1
 2021-07-30,Samtgemeinde Werlte,873,852,19,2
-2021-07-30,Gesamt,12794,12542,188,64
+2021-07-30,Gesamt,12794,12542,188,64,10.7
 2021-07-31,Samtgemeinde Dörpen,452,448,3,1
 2021-07-31,Einheitsgemeinde Emsbüren,336,336,0,0
 2021-07-31,Samtgemeinde Freren,607,588,16,3
@@ -10198,7 +10198,7 @@
 2021-07-31,Samtgemeinde Spelle,617,594,15,8
 2021-07-31,Einheitsgemeinde Twist,257,253,3,1
 2021-07-31,Samtgemeinde Werlte,873,852,19,2
-2021-07-31,Gesamt,12794,12542,188,64
+2021-07-31,Gesamt,12794,12542,188,64,10.1
 2021-08-01,Samtgemeinde Dörpen,452,448,3,1
 2021-08-01,Einheitsgemeinde Emsbüren,336,336,0,0
 2021-08-01,Samtgemeinde Freren,607,588,16,3
@@ -10218,7 +10218,7 @@
 2021-08-01,Samtgemeinde Spelle,617,594,15,8
 2021-08-01,Einheitsgemeinde Twist,257,253,3,1
 2021-08-01,Samtgemeinde Werlte,873,852,19,2
-2021-08-01,Gesamt,12794,12542,188,64
+2021-08-01,Gesamt,12794,12542,188,64,10.4
 2021-08-02,Samtgemeinde Dörpen,453,448,3,2
 2021-08-02,Einheitsgemeinde Emsbüren,337,336,0,1
 2021-08-02,Samtgemeinde Freren,607,588,16,3
@@ -10238,7 +10238,7 @@
 2021-08-02,Samtgemeinde Spelle,617,595,15,7
 2021-08-02,Einheitsgemeinde Twist,257,253,3,1
 2021-08-02,Samtgemeinde Werlte,878,852,19,7
-2021-08-02,Gesamt,12814,12547,188,79
+2021-08-02,Gesamt,12814,12547,188,79,12.8
 2021-08-03,Samtgemeinde Dörpen,453,448,3,2
 2021-08-03,Einheitsgemeinde Emsbüren,334,334,0,0
 2021-08-03,Samtgemeinde Freren,608,590,16,2
@@ -10258,7 +10258,7 @@
 2021-08-03,Samtgemeinde Spelle,617,595,15,7
 2021-08-03,Einheitsgemeinde Twist,257,253,3,1
 2021-08-03,Samtgemeinde Werlte,876,850,19,7
-2021-08-03,Gesamt,12809,12556,188,66
+2021-08-03,Gesamt,12809,12556,188,66,12.2
 2021-08-04,Samtgemeinde Dörpen,453,448,3,2
 2021-08-04,Einheitsgemeinde Emsbüren,334,334,0,0
 2021-08-04,Samtgemeinde Freren,608,590,16,2
@@ -10278,4 +10278,4 @@
 2021-08-04,Samtgemeinde Spelle,618,596,15,7
 2021-08-04,Einheitsgemeinde Twist,257,254,3,0
 2021-08-04,Samtgemeinde Werlte,877,850,19,8
-2021-08-04,Gesamt,12814,12562,189,63
+2021-08-04,Gesamt,12814,12562,189,63,11.3

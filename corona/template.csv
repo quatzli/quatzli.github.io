@@ -1,4 +1,4 @@
-#datum,kommune,faelle,genesen,verstorben,current
+#datum,kommune,faelle,genesen,verstorben,current,inzidenz
 2021-08-04,Samtgemeinde Dörpen,453,448,3,2
 2021-08-04,Einheitsgemeinde Emsbüren,334,334,0,0
 2021-08-04,Samtgemeinde Freren,608,590,16,2
@@ -18,4 +18,4 @@
 2021-08-04,Samtgemeinde Spelle,618,596,15,7
 2021-08-04,Einheitsgemeinde Twist,257,254,3,0
 2021-08-04,Samtgemeinde Werlte,877,850,19,8
-2021-08-04,Gesamt,12814,12562,189,63
+2021-08-04,Gesamt,12814,12562,189,63,11.3

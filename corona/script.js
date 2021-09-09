@@ -101,9 +101,11 @@ function fetchCSVData(url) {
             verstorben: +data.verstorben,
             verstorben100k: +data.verstorben / factor100k,
             current: +data.current,
-            current100k: +data.current / factor100k
+            current100k: +data.current / factor100k,
+            inzidenz: data.kommune=="Gesamt" ? +data.inzidenz : 0
         };
     }).then(function (data) {
+        console.log(data);
         generateAllDataGraph(data, "faelle", []);
         calculate7DayIncidence(data);
         csvData = data
@@ -177,6 +179,10 @@ function generateAllDataGraph(data, dataType, regions) {
                         label = d[0] + " - Aktuell Infizierte/100k";
                         data = d[1].map(d => d.current100k)
                         break;
+                        case 'inzidenz':
+                            label = d[0] + " - Inzidenz";
+                            data = d[1].map(d => d.inzidenz)
+                            break;
                     default:
                 }
 

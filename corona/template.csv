@@ -1,21 +1,21 @@
-#datum,kommune,faelle,genesen,verstorben,current,inzidenz
-2021-08-23,Samtgemeinde Dörpen,460,452,3,5
-2021-08-23,Einheitsgemeinde Emsbüren,346,337,0,9
-2021-08-23,Samtgemeinde Freren,615,595,16,4
-2021-08-23,Einheitsgemeinde Geeste,374,362,2,10
-2021-08-23,Stadt Haren (Ems),723,678,3,42
-2021-08-23,Stadt Haselünne,483,469,6,8
-2021-08-23,Samtgemeinde Herzlake,376,369,4,3
-2021-08-23,Samtgemeinde Lathen,521,514,1,6
-2021-08-23,Samtgemeinde Lengerich,345,340,3,2
-2021-08-23,Stadt Lingen (Ems),1638,1573,28,37
-2021-08-23,Stadt Meppen,1320,1282,26,12
-2021-08-23,Samtgemeinde Nordhümmling,557,551,6,0
-2021-08-23,Stadt Papenburg,2191,2124,44,23
-2021-08-23,Einheitsgemeinde Rhede (Ems),166,163,2,1
-2021-08-23,Einheitsgemeinde Salzbergen,275,261,5,9
-2021-08-23,Samtgemeinde Sögel,899,882,4,13
-2021-08-23,Samtgemeinde Spelle,625,604,15,6
-2021-08-23,Einheitsgemeinde Twist,257,254,3,0
-2021-08-23,Samtgemeinde Werlte,897,864,19,14
-2021-08-23,Gesamt,13068,12674,190,204,44.0
+#datum,kommune,faelle,genesen,verstorben,current,inzidenz,hospitalisierung,intensivbetten
+2021-08-25,Samtgemeinde Dörpen,460,452,3,5
+2021-08-25,Einheitsgemeinde Emsbüren,346,338,0,8
+2021-08-25,Samtgemeinde Freren,615,595,16,4
+2021-08-25,Einheitsgemeinde Geeste,374,362,2,10
+2021-08-25,Stadt Haren (Ems),731,683,3,45
+2021-08-25,Stadt Haselünne,483,470,6,7
+2021-08-25,Samtgemeinde Herzlake,376,371,4,1
+2021-08-25,Samtgemeinde Lathen,521,514,1,6
+2021-08-25,Samtgemeinde Lengerich,345,340,3,2
+2021-08-25,Stadt Lingen (Ems),1640,1574,29,37
+2021-08-25,Stadt Meppen,1321,1282,26,13
+2021-08-25,Samtgemeinde Nordhümmling,557,551,6,0
+2021-08-25,Stadt Papenburg,2192,2125,44,23
+2021-08-25,Einheitsgemeinde Rhede (Ems),166,163,2,1
+2021-08-25,Einheitsgemeinde Salzbergen,276,261,5,10
+2021-08-25,Samtgemeinde Sögel,899,882,4,13
+2021-08-25,Samtgemeinde Spelle,626,605,15,6
+2021-08-25,Einheitsgemeinde Twist,257,254,3,0
+2021-08-25,Samtgemeinde Werlte,897,864,19,14
+2021-08-25,Gesamt,13082,12686,191,205,39.8

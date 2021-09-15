@@ -182,22 +182,16 @@ function generateAllDataGraph(data, dataType, regions) {
                         data = d[1].map(d => d.current100k)
                         break;
                     case 'inzidenz':
-                        if(d[0]=="Gesamt"){
-                            label = d[0] + " - Inzidenz";
-                            data = d[1].map(d => d.inzidenz)
-                        }
+                        label = d[0] + " - Inzidenz";
+                        data = d[1].map(d => d.inzidenz)
                         break;
                     case 'hospitalisierung':
-                        if(d[0]=="Gesamt"){    
-                            label = d[0] + " - Hospitalisierung";
-                            data = d[1].map(d => d.hospitalisierung)
-                        }
+                        label = d[0] + " - Hospitalisierung";
+                        data = d[1].map(d => d.hospitalisierung)
                         break;
                     case 'intensivbetten':
-                        if(d[0]=="Gesamt"){    
-                            label = d[0] + " - Intensivbetten";
-                            data = d[1].map(d => d.intensivbetten)
-                        }
+                        label = d[0] + " - Intensivbetten";
+                        data = d[1].map(d => d.intensivbetten)
                         break;
                     default:
                 }
